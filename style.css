@@ -1,0 +1,338 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family:"roboto", sans-serif;
+}
+ .container {
+    width: 10%;
+    heigh: 1000vh;
+    background-color: rgb(78, 80, 82);
+ }
+
+ .wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 1350px;
+    height: 80px; 
+    background-color: rgb(95, 92, 92);
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,0,5);
+ }
+
+ .brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 20px;
+    text-transform: capitalize;
+ }
+
+ .firstname{
+    color: white;
+    font-weight: 70;
+    font-family: "roboto";
+
+ }
+
+ .lastname{
+    color: crimson;
+    padding-left: 4px;
+    font-weight: 70px;
+    font-family: "roboto";
+ }
+ .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 70px;
+    
+ }
+ .navigation>li{
+    list-style-type: none;
+    padding: 15px;
+    padding-left: 50px;
+ }
+.navigation>li>a {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "roboto";
+    text-transform: capitalize;
+    
+}
+.navigation>li>a:hover{
+    color: crimson;
+    transition: all  .1s ease-in-out ;
+}
+.judultengah>p {
+   font-size: 30PX;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   font-family: roboto;
+   position:absolute;
+   top: 30%;
+   left:46%;
+   transform: translateX(-50) translateY(-50);
+   color: blanchedalmond;
+   text-decoration: solid;
+   text-transform: capitalize;
+   background-color: crimson ;
+}
+ .vocpng>img {
+   position: absolute;
+   top: 30%;
+   left: 20%;
+   width: 300px;
+   height: 300px;
+   box-shadow: 50;
+
+ }
+
+ .deskripsiA>p {
+   position: absolute;
+   top: 40%;
+   left: 45%;
+   font-size: 20px;
+ }
+ .listnama>ul>li {
+   padding: 15px;
+   padding-left: 20px;
+ }
+
+ .listnama>ul>li>a {
+   position: absolute;
+   top: 48%;
+   left: 45%;
+ }
+
+ .kelas>ul>li>a {
+   position: absolute;
+   top: 52%;
+   left: 45%;
+ }
+
+ .listnama>ul>li>a:hover{
+     color: brown;
+     transition:all .1s ease-in-out;
+ }
+
+.kelas>ul>li>a:hover {
+   color: rgb(251, 255, 6);
+   transition:all .1s ease-in-out;
+}
+.box1 {
+   position: absolute;
+   top: 4%;
+   left: 30%;
+   margin: 100px auto;
+   border: 4px solid rgb(165, 0, 0);
+   width: 550px;
+   border-radius: 40px;
+   height: 30px;
+   background-color: rgb(43, 44, 44);
+}
+.search {
+   outline: none;
+   height: 50px;
+   width: 3px;
+   border-radius: 10px;
+   border: 0;
+
+}
+.input1 {
+   width: 500px;
+}
+.src {
+   background: transparent;
+   outline: none;
+   border: 4px solid rgb(3, 3, 3);
+   background-color: rgb(255, 248, 248);
+   padding-left: 10px;
+}
+ .src:hover {
+   color: rgb(129, 13, 9);
+   transition:all .1 ease-in-out;
+ }
+ .box2 {
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   border: 4px solid rgb(250, 0, 0);
+   width: 150px;
+   border-radius: 10px;
+   height: 300px;
+   background-color: rgb(128, 129, 129);
+ }
+ .box2>p {
+   text-align: center;
+   background-color: rgb(197, 5, 5);
+   font-family: roboto;
+   font-size: 30px;
+ }
+.terlaris>li {
+   list-style-type: none
+}
+ .terlaris>li>a {
+   top: 10%;
+   text-decoration: none;
+ }
+ 
+ .box3 {
+   position: absolute;
+   top: 40%;
+   left: 30%;
+   border: 4px solid rgb(250, 0, 0);
+   width: 800px;
+   border-radius: 10px;
+   height: 720px;
+   background-color: rgb(128, 129, 129);
+ }
+.box3>p {
+   text-align: center;
+   background-color: brown;
+   font-size: 30px;
+   font-family: roboto;
+   border: 4px solid red;
+   
+}
+.kunyit>p>strong>a {
+   text-decoration: none;
+
+}
+.kunyit>p>strong>a:hover {
+   color: brown;
+   transition: all .1s red;
+
+}
+.kunyit>p {
+   position: absolute;
+   top: 10%;
+   left: 35%;
+   text-decoration: none;
+
+}
+
+.kunyitspek {
+   position: absolute;
+   top: 15%;
+   left: 35%;
+   list-style-type: none;
+}
+.imgkunyit {
+   position: absolute;
+   top: 10%;
+   left: 5%;
+}
+.cengkehfto {
+   position: absolute;
+   top: 40%;
+   left: 5%;
+   width: 10px;
+   height: 10px;
+}
+.cengkehspek {
+   position: absolute;
+   top: 170%;
+   left: 3%;
+   list-style-type: none;
+
+}
+.cengkehjdl {
+   position: absolute;
+   top: 40%;
+   left: 35%;
+
+}
+.cengkehjdl>p>em>strong>a {
+   text-decoration: none;
+}
+.cengkehjdl>p>em>strong>a:hover{
+   color: brown;
+   transition: all .1s red;
+}
+.ladajdul {
+   position: absolute;
+   top: 70% ;
+   left: 35%;
+   
+
+}
+.ladajdul>p>em>strong>a {
+   text-decoration: none;
+}
+
+.ladajdul>p>em>strong>a:hover {
+   color: brown;
+   transition: all .1s red;
+}
+.ladapng{
+   position: absolute;
+   top: 70%;
+   left: 5%;
+   width: 10px;
+   height: 10px;
+
+}
+.ladareq {
+   position: absolute;
+   top: 200%;
+   list-style-type: none;
+
+}
+
+.box4 {
+   position: absolute;
+   top: 120%;
+   left: 0%;
+   border: 4px solid rgb(250, 0, 0);
+   width: 800px;
+   border-radius: 10px;
+   height: 720px;
+   background-color: rgb(128, 129, 129);
+   
+}
+.box4>p {
+   text-align: center;
+   background-color: brown;
+   font-size: 30px;
+   font-family: roboto;
+   border: 4px solid red;
+
+}
+.ps5png {
+   osition: absolute;
+   top: 70%;
+   left: 5%;
+   width: 10px;
+   height: 10px;
+}
+.ps5jdl {
+   position: absolute;
+   top: 10% ;
+   left: 10%;
+}
+.ps5req {
+   position: absolute;
+   top: 200%;
+   list-style-type: none;
+}
+.buy1 {
+   text-align: center;
+   border: 3px solid green;
+   background-color: greenyellow;
+}
+.buy2 {
+   text-align: center;
+   border: 3px solid green;
+   background-color: greenyellow;
+}
+.buy3 {
+   text-align: center;
+   border: 3px solid green;
+   background-color: greenyellow;
+}
+
